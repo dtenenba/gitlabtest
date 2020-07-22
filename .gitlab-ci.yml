@@ -10,7 +10,7 @@ before_script:
 build:
   script:
     - echo this is build
-    - ls /334343hgghghghghghghgh
+    # - ls /334343hgghghghghghghgh
   
 deploy:
   stage: deploy
