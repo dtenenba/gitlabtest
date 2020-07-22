@@ -1,7 +1,6 @@
 
 before_script:
   - echo this is before_script
-  - tar zxf rancher-linux-amd64-v0.6.2.tar.gz
   
 build_test:
   script:
