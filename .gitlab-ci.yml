@@ -2,15 +2,15 @@
 before_script:
   - echo this is before_script
   
-build_test:
-  script:
-    - echo this is build_test
-    - ls /djkskdshdjshdjhsjdhsj
-
-# build:
+# build_test:
 #   script:
-#     - echo this is build
-#     - ls /334343hgghghghghghghgh
+#     - echo this is build_test
+#     - ls /djkskdshdjshdjhsjdhsj
+
+build:
+  script:
+    - echo this is build
+    - ls /334343hgghghghghghghgh
   
 deploy:
   only:
