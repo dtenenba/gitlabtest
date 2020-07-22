@@ -1,0 +1,22 @@
+
+before_script:
+  - echo this is before_script
+  - tar zxf rancher-linux-amd64-v0.6.2.tar.gz
+  
+build_test:
+  script:
+    - echo this is build_test
+    - ls /djkskdshdjshdjhsjdhsj
+
+# build:
+#   script:
+#     - echo this is build
+#     - ls /334343hgghghghghghghgh
+  
+deploy:
+  only:
+    refs:
+       - master
+  script:
+    - echo here we are in deploy
+  
